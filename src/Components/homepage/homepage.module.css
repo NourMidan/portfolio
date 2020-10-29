@@ -1,0 +1,311 @@
+.container {
+  display: flex;
+  justify-content: center;
+}
+
+.mainBorderContainer {
+  margin-top: 4em;
+  display: flex;
+  flex-direction: column;
+  color: #413b70;
+  margin-bottom: 0.3em;
+  min-width: 250px;
+}
+.mainBorderWrapper {
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  /* width: 16%; */
+  min-width: 300px;
+}
+
+.mainBorder {
+  border: 2px solid rgb(218, 218, 218);
+  align-self: flex-end;
+  width: 0px;
+
+  visibility: hidden;
+}
+.mainBorder1 {
+  border: 2px solid rgb(218, 218, 218);
+  align-self: flex-start;
+  width: 0px;
+  margin-top: 0px;
+
+  visibility: hidden;
+}
+
+body,
+html {
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(
+    90deg,
+    rgba(176, 153, 153, 1) 0%,
+    rgba(149, 139, 226, 1) 0%,
+    rgba(152, 152, 152, 1) 75%
+  );
+}
+.title {
+  font-family: "Russo One", sans-serif;
+  font-weight: 400;
+  font-size: 56px;
+  text-align: center;
+  margin-bottom: 0;
+  margin-top: 0;
+  cursor: pointer;
+  /* width: 100%; */
+  /* color: #2d2855; */
+  /* width: 20%;
+     align-self: center; */
+}
+.mainBorderContainer:hover {
+  color: rgb(218, 218, 218);
+  transition: color 2000ms;
+}
+.mainBorderContainer:hover .mainBorder {
+  width: 305px;
+  transition: width 2000ms;
+  visibility: visible;
+}
+.mainBorderContainer:hover .mainBorder1 {
+  width: 305px;
+  transition: width 2000ms;
+  visibility: visible;
+}
+
+.jobTitle {
+  margin-top: 0;
+  font-family: "Roboto Mono", sans-serif;
+  font-size: 30px;
+  font-weight: 200;
+  text-align: center;
+  cursor: pointer;
+  color: rgb(218, 218, 218);
+}
+
+.Linkedin {
+  fill: #413b70;
+  cursor: pointer;
+}
+.Linkedin:hover {
+  fill: rgb(218, 218, 218);
+}
+.iconsContainer {
+  display: flex;
+  justify-content: center;
+  margin-top: 5em;
+}
+.borderContainer {
+  margin-top: 1em;
+  /* width: 100%; */
+  display: flex;
+  justify-content: center;
+}
+.border {
+  border-bottom: 2px solid rgb(218, 218, 218);
+  /* width: 3%; */
+  width: 60px;
+  text-align: center;
+}
+.links {
+  display: flex;
+  justify-content: center;
+  padding: 0;
+  flex-wrap: wrap;
+}
+a {
+  color: rgb(218, 218, 218);
+  text-decoration: none;
+  font-family: "Roboto Mono", sans-serif;
+
+  font-size: 20px;
+  margin-top: 1em;
+  padding: 0em 1em;
+}
+a:hover {
+  color: #413b70;
+}
+.test {
+  height: 1em;
+  border: 1px solid black;
+  margin-top: 1.5em;
+  padding: 0;
+}
+.test:last-of-type {
+  border: none;
+}
+.aboutContainer {
+  display: flex;
+  justify-content: center;
+}
+
+.about {
+  /* margin-left: 30%;
+    margin-right: 30%; */
+    background-color: rgba(255, 255, 255, 0);
+  width: 750px;
+  text-align: center;
+  box-shadow: 8px 8px 18px 0 rgba(0, 0, 0, 0.25),
+    -6px -6px 8px 0 rgba(255, 255, 255, 0.2);
+  margin-top: 4em;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.about:hover{
+  background-color: rgba(255, 255, 255, 0.05);
+
+}
+.aboutme {
+  color: #413b70;
+  margin-top: 1.5em;
+  margin-bottom: 1.5em;
+  font-family: "Russo One", sans-serif;
+  font-size: 2em;
+  font-weight: 300;
+}
+.aboutme1 {
+  color: #413b70;
+  margin-top: 1.5em;
+  margin-bottom: 1.5em;
+  font-family: "Russo One", sans-serif;
+  font-size: 2em;
+  font-weight: 300;
+}
+.text {
+  font-family: "Roboto Mono", sans-serif;
+  font-weight: 400;
+  padding: 0 7%;
+  color: #413b70;
+}
+.text:last-of-type {
+  margin-bottom: 5em;
+}
+
+.skills {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 2%;
+}
+.skills > h1:first-child {
+  font-family: "Russo One", sans-serif;
+  color: #413b70;
+  font-weight: 400;
+}
+
+.techs {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.techs h1 {
+  display: flex;
+  align-items: center;
+  font-family: "Roboto Mono", sans-serif;
+  font-weight: 400;
+  color: rgb(218, 218, 218);
+  font-size: 25px;
+  display: flex;
+  margin-bottom: 5px;
+  margin-top: 0;
+  cursor: pointer;
+}
+.techs h1:hover {
+  color: #413b70;
+}
+.techs h1 > span {
+  margin-left: 5px;
+}
+.project {
+  background-color: rgba(255, 255, 255, 0);
+  width: 750px;
+  text-align: center;
+  box-shadow: 8px 8px 18px 0 rgba(0, 0, 0, 0.25),
+    -6px -6px 8px 0 rgba(255, 255, 255, 0.2);
+  margin-bottom: 2em;
+  border-radius: 10px;
+  cursor: pointer;
+  /* fill : white */
+}
+.project:hover{
+  background-color: rgba(255, 255, 255, 0.05);
+}
+
+@keyframes wiggle {
+  0% {
+    transform: rotateZ(-20deg);
+  }
+  50% {
+    transform: rotateZ(30deg);
+  }
+  100% {
+    transform: rotateZ();
+  }
+}
+.projectIcon:hover {
+  animation: wiggle 200ms 2 forwards;
+}
+
+.projectTitle {
+  font-family: "Roboto Mono", sans-serif;
+  font-weight: 400;
+  padding: 0 7%;
+  color: #413b70;
+}
+.projectDescription {
+  font-family: "Roboto Mono", sans-serif;
+  font-weight: 400;
+  padding: 0 7%;
+  color: #413b70;
+}
+.contact {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+
+  /* position: relative; */
+  /* margin-left: 0px;
+  margin-right: 0px;
+  padding-left: 0px;
+  padding-right: 0px; */
+  /* padding-bottom: 3em; */
+  background-color: black;
+  border: none;
+  font-family: "Roboto Mono", sans-serif;
+}
+
+.contact h1 {
+  color: rgb(218, 218, 218);
+}
+.contact a {
+  color: rgb(218, 218, 218);
+}
+.contact a:hover {
+  color: #413b70;
+}
+
+.disclaimer{
+  margin-left: auto;
+  color: rgb(218, 218, 218);
+  font-size: 10px;
+}
+.disclaimer a {
+  font-size: 10px;
+
+}
+@media (max-width: 850px) {
+  .about ,.project{
+    width: 90%;
+  }
+}
+@media (max-width: 570px) {
+  .title{
+ font-size: 50px;
+  }
+  .aboutme1{
+    font-size: 1.1em;
+  }
+}
